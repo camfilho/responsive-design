@@ -52,6 +52,7 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: bold;
+  margin: 10px 0 10px 0;
 }
 
 h4 {
@@ -61,6 +62,7 @@ h4 {
 
 h5 {
   font-size: 14px;
+  margin: 10px 0 10px 0;
 }
 /* hack to make images flexible in our prototype */
 
@@ -389,7 +391,39 @@ nav {
   height: 258px;
   color: white;
 }
-/* Mobile Landscape Screen Sizes */
+
+.ul-flex {
+  display:flex;
+  flex-flow: row;
+}
+
+.header-bot {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+}
+
+.img-background {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.latest {
+  background-color: #f42;
+  height: 96px;
+  box-sizing: border-box;
+  display:flex;
+  flex-flow: row;
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+}
+/* Mobile Land
+scape Screen Sizes */
 @media only screen and (min-width: 480px) {
 }
 /* Desktop screen Sizes */
