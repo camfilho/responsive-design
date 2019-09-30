@@ -42,6 +42,13 @@ strong {
   font-weight: bold;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f42;
+  margin-bottom: 4%;
+}
+
 h3 {
   font-size: 20px;
 }
@@ -69,6 +76,7 @@ div img {
 
 /* grid system -- mobile first! */
 
+
 nav {
   display: flex;
   flex-flow: row wrap;
@@ -93,10 +101,10 @@ nav {
 }
 
 .attention {
-  box-shadow: 0 16px 48px rgba(0,0,0,.15);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
   line-height: 10px;
   background: #fd3;
-  display:flex;
+  display: flex;
   align-items: content;
   flex-wrap: nowrap;
   font-size: 13px;
@@ -105,15 +113,22 @@ nav {
   overflow: hidden;
 }
 
+.row {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
 .img-1 {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fonecoinscam.jpg&signature=7c7b735571210481b19f30ffed2a267c") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fonecoinscam.jpg&signature=7c7b735571210481b19f30ffed2a267c")
+    center center no-repeat;
   height: 184px;
   background-size: cover;
   background-blend-mode: darken;
-  z-index: 2; 
+  z-index: 2;
   color: white;
 }
 
@@ -134,11 +149,13 @@ nav {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931")
+    center center no-repeat;
   height: 184px;
   background-size: cover;
   background-blend-mode: darken;
-  z-index: 2; 
+  z-index: 2;
   color: white;
 }
 
@@ -159,11 +176,13 @@ nav {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png")
+    center center no-repeat;
   height: 184px;
   background-size: cover;
   background-blend-mode: darken;
-  z-index: 2; 
+  z-index: 2;
   color: white;
 }
 
@@ -184,12 +203,104 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf") center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image-2 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/slack-516x270.png")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image-3 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url(" https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-bright-514x270.jpg")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image-4 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/satoshi-nakamoto-cryptocurrency-bitcoin-516x270.jpg");
+  background-size: cover;
+}
+
+.image-5 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/0gfWlDN-540x270.jpg");
+  background-size: cover;
+}
+
+.image-6 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/WhatsApp-Messenger-icon-heds-511x270.jpg");
+  background-size: cover;
+}
+
+.image-7 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Bitcoin.-516x270.jpg");
+  background-size: cover;
+}
+
+.image-8 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/IMG_20190930_111241-Cropped-513x270.jpg");
+  background-size: cover;
+}
+
+
+.apple-image-1 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-Pro-Tim-Cook-513x270.jpg");  
+  background-size: cover;
+}
+
+.apple-image-2 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-Pro-lineup-514x270.jpg");
+  background-size: cover;
+}
+
+.apple-image-3 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-pricing-513x270.jpg");
+  background-size: cover;
+}
+
+.apple-image-4 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iphone11-513x270.jpg"); 
   background-size: cover;
 }
 
 .col-s1 {
-  display:flex;
+  display: flex;
   flex: 0 0 100%;
   flex-flow: row wrap;
 }
@@ -200,8 +311,7 @@ nav {
   flex-flow: column wrap;
 }
 
-.article-head h4{
-
+.article-head h4 {
 }
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
