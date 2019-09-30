@@ -46,6 +46,11 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
 h5 {
   font-size: 14px;
 }
@@ -125,6 +130,79 @@ nav {
   margin-right: 5%;
 }
 
+.img-2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931") center center no-repeat;
+  height: 184px;
+  background-size: cover;
+  background-blend-mode: darken;
+  z-index: 2; 
+  color: white;
+}
+
+.img-2 ul {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.img-2 ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.img-3 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png") center center no-repeat;
+  height: 184px;
+  background-size: cover;
+  background-blend-mode: darken;
+  z-index: 2; 
+  color: white;
+}
+
+.img-3 ul {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.img-3 ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.image-1 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf") center center no-repeat;
+  background-size: cover;
+}
+
+.col-s1 {
+  display:flex;
+  flex: 0 0 100%;
+  flex-flow: row wrap;
+}
+
+.article-head {
+  display: flex;
+  flex-basis: 70%;
+  flex-flow: column wrap;
+}
+
+.article-head h4{
+
+}
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
 }
