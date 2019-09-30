@@ -49,6 +49,24 @@ div img {
 
 /* grid system -- mobile first! */
 
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: red;
+  flex: 0 0 100%;
+}
+.logo {
+  display: flex;
+  background-color: black;
+  flex: 0 0 10%;
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+  align-content: center;
+}
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
 }
