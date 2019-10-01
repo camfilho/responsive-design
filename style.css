@@ -573,6 +573,22 @@ footer {
   flex: 0 0 100%;
   background-color:#131313;
 }
+.row-1 {
+  color:white;
+  
+}
+
+.logos {
+  display:flex;
+  justify-content: center;
+  background-color: #555;
+  font-size:16px;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 50%;
+  
+}
 
 .footer-links-social {
   display: flex;
@@ -592,6 +608,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer-links-menu li {
@@ -605,9 +622,9 @@ footer {
   display: flex;
 }
 
-/* Mobile Land
-scape Screen Sizes */
+/* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
+
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
