@@ -38,6 +38,10 @@ a {
   transition: color 0.5s ease;
 }
 
+b {
+  color: #f42;
+}
+
 strong {
   font-weight: bold;
 }
@@ -48,17 +52,20 @@ h2 {
   color: #f42;
   margin-bottom: 4%;
   margin-top: 12px;
+  margin-left: 4%;
+  flex: 0 0 100%;
 }
 
 h3 {
   font-size: 20px;
   font-weight: bold;
-  margin: 10px 0 10px 0;
+  
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
+  flex: 0 0 15%;
 }
 
 h5 {
@@ -82,7 +89,16 @@ div img {
   width: 20px;
   height: 20px;
   display: block;
-  
+}
+
+*[class*="col-"] {
+  margin-left: 4%;
+}
+
+.hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
 }
 
 /* grid system -- mobile first! */
@@ -126,8 +142,10 @@ nav {
 .row {
   margin-top: 4%;
   margin-bottom: 4%;
+  display: flex;
   flex: 0 0 100%;
-  
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .img-1 {
@@ -284,6 +302,7 @@ nav {
   width: 75px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-Pro-Tim-Cook-513x270.jpg");
   background-size: cover;
+  flex: 0 0 30%;
 }
 
 .apple-image-2 {
@@ -292,6 +311,7 @@ nav {
   width: 75px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-Pro-lineup-514x270.jpg");
   background-size: cover;
+  flex: 0 0 30%;
 }
 
 .apple-image-3 {
@@ -300,6 +320,7 @@ nav {
   width: 75px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-pricing-513x270.jpg");
   background-size: cover;
+  flex: 0 0 30%;
 }
 
 .apple-image-4 {
@@ -308,11 +329,12 @@ nav {
   width: 75px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iphone11-513x270.jpg");
   background-size: cover;
+  flex: 0 0 30%;
 }
 
 .article-head {
   display: flex;
-  flex-basis: 70%;
+  flex-basis: 60%; 
   flex-flow: column wrap;
 }
 
@@ -335,10 +357,11 @@ nav {
 }
 
 .pink-back {
-  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  padding: 10.6666666667px 16px 10.6666666667px 80px;
   color: #000;
   background: rgba(255, 68, 34, 0.08);
   margin: 0;
+  flex: 0 0 100%;
 }
 
 .back-img {
@@ -364,6 +387,8 @@ nav {
 .column-2 {
   display: flex;
   flex-flow: column;
+  align-items: flex-start;
+  flex: 0 0 100%;
 }
 
 .anchor-tag {
@@ -378,10 +403,13 @@ nav {
 
 .div-border {
   border-top: 4px solid rgba(255, 68, 34, 0.08);
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: flex-start;
 }
 
 .ul-flex {
-  display:flex;
+  display: flex;
   flex-flow: row;
 }
 
@@ -389,7 +417,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -403,21 +433,21 @@ nav {
 }
 
 .latest {
-  background-color: rgba(255, 68, 34, 0.08);;
+  background-color: rgba(255, 68, 34, 0.08);
   height: 96px;
   box-sizing: border-box;
-  display:flex;
+  display: flex;
   flex-flow: row;
   flex: 0 0 100%;
   color: #ff4422;
   font-size: 13px;
   margin-bottom: 10px;
-  
 }
 
 .image-container {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -434,7 +464,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background:rgba(0, 0, 0, 0.562)  url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -444,7 +476,8 @@ nav {
 
 .image-container-1 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -453,7 +486,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -462,17 +497,19 @@ nav {
 }
 .image-container-2 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
-
 
 .header-bot-3 {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -481,7 +518,8 @@ nav {
 }
 .image-container-3 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -489,7 +527,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background:rgba(0, 0, 0, 0.562)  url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -499,7 +539,8 @@ nav {
 
 .image-container-4 {
   width: 100px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707") center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -508,7 +549,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -517,7 +560,8 @@ nav {
 }
 .image-container-5 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -526,7 +570,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background:rgba(0, 0, 0, 0.562)  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -536,7 +582,8 @@ nav {
 
 .image-container-6 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -545,7 +592,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -554,7 +603,8 @@ nav {
 }
 .image-container-7 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -563,9 +613,23 @@ footer {
   display: flex;
   flex-flow: row wrap;
   flex: 0 0 100%;
-  background-color:#131313;
+  background-color: #131313;
 }
 
+.col-s1 {
+  display: flex;
+  flex: 0 0 96%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.col-s1 h2 {
+  justify-self: flex-start;
+  flex: 0 0 100%;
+}
+/*
 .col-s2 {
   display: flex;
   flex: 0 0 100%;
@@ -576,78 +640,95 @@ footer {
   height: 160px;
   padding: 30px 0 30 0;
 }
-
-.row-1 {
-  color:white;
-}
-
+*/
 .logos {
-  display:flex;
+  display: flex;
   justify-content: center;
   background-color: #555;
-  font-size:16px;
+  font-size: 16px;
   width: 40px;
   height: 40px;
   padding: 12px;
   border-radius: 50%;
-  
 }
 
 .footer-links {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: wrap
-}
-
-.footer-links li {
-  height: 100%;
-  width: 100%;
-  justify-items: center;
+  justify-self: center;
+  flex-flow: wrap;
 }
 
 .footer-links-menu {
   margin-top: 4%;
   display: flex;
+  flex: 0 0 96%;
   justify-content: center;
   align-items: center;
-  
 }
 
-.footer-links-menu li {
-  margin: 0 02%;
-  display: flex;
-  justify-content: center;
-}
-b {
-  color: #f42;
-}
-
-.sectionzita {
-  width: 100%;
+.footer-links-menu a {
+  margin: 0 1%;
+  color: white;
 }
 .imagen-33 {
-width: 20px;
-height: 30px;
-}
-
-.futer {
-  width: 100%;
-  background: #000;
-  color: #aaa;
-  font-size: 13px;
-  padding: 2.5em 0;
+  width: 20px;
+  height: 30px;
 }
 
 .footer-legal {
-  background-color: black; 
+  background-color: black;
+  color: #aaa;
   display: flex;
+  font-size: 13px;
+  flex: 0 0 100%;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
-
+.index-nav {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  color: #f42;
+}
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
-
+  .col-m2 {
+    display: flex;
+    flex: 0 0 46%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
+
+
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+  a[class*="apple-image"] {
+    flex: 0 0 100%;
+    height: 200px;
+  }
+  .article-head {
+    flex: 0 0 100%;
+  }
+  .col-l3 {
+    display: flex;
+    flex: 0 0 29%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .col-l4 {
+    display: flex;
+    flex: 0 0 20%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
