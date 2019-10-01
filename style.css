@@ -385,13 +385,6 @@ nav {
   border-top: 4px solid rgba(255, 68, 34, 0.08);
 }
 
-.apps {
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg") center center no-repeat;
-  background-blend-mode: darken;
-  height: 258px;
-  color: white;
-}
-
 .ul-flex {
   display:flex;
   flex-flow: row;
@@ -401,6 +394,12 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg") center center no-repeat;
+  background-blend-mode: darken;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+  background-size: cover;
 }
 
 .img-background {
@@ -416,6 +415,7 @@ nav {
   box-sizing: border-box;
   display:flex;
   flex-flow: row;
+  flex: 0 0 100%;
 }
 
 .image-container {
