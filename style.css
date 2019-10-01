@@ -47,6 +47,7 @@ h2 {
   font-size: 24px;
   color: #f42;
   margin-bottom: 4%;
+  margin-top: 12px;
 }
 
 h3 {
@@ -403,25 +404,167 @@ nav {
 }
 
 .img-background {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg") center center no-repeat;
-  background-size: cover;
   height: 100%;
   width: 100%;
 }
 
 .latest {
-  background-color: #f42;
+  background-color: rgba(255, 68, 34, 0.08);;
   height: 96px;
   box-sizing: border-box;
   display:flex;
   flex-flow: row;
   flex: 0 0 100%;
+  color: #ff4422;
+  font-size: 13px;
+  margin-bottom: 10px;
+  
 }
 
 .image-container {
   width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg") center center no-repeat;
+  background-size: cover;
   height: 100px;
 }
+
+.post-list li {
+  font-size: 13px;
+  color: #555;
+  display: block;
+  padding: 12px 0 12px 14px;
+  position: relative;
+}
+
+.header-bot-1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background:rgba(0, 0, 0, 0.562)  url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979") center center no-repeat;
+  background-blend-mode: darken;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+  background-size: cover;
+}
+
+.image-container-1 {
+  width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.header-bot-2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png") center center no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+}
+.image-container-2 {
+  width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+
+.header-bot-3 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png") center center no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+}
+.image-container-3 {
+  width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+.header-bot-4 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background:rgba(0, 0, 0, 0.562)  url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6") center center no-repeat;
+  background-blend-mode: darken;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+  background-size: cover;
+}
+
+.image-container-4 {
+  width: 100px;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.header-bot-5 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+}
+.image-container-5 {
+  width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.header-bot-6 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background:rgba(0, 0, 0, 0.562)  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg") center center no-repeat;
+  background-blend-mode: darken;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+  background-size: cover;
+}
+
+.image-container-6 {
+  width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.header-bot-7 {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg") center center no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 258px;
+  color: white;
+  flex: 0 0 100%;
+}
+.image-container-7 {
+  width: 100px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
 /* Mobile Land
 scape Screen Sizes */
 @media only screen and (min-width: 480px) {
