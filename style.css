@@ -704,6 +704,25 @@ footer {
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
+
+  .black-nav {
+    display:flex;
+    background-color: #131313;
+    color: #555;
+    height: 30px;
+    font-size: 18px;
+    justify-content: space-between;
+  }
+
+  .white-nav {
+    display:flex;
+    background-color: #AAAAAA;
+    color: #555;
+    height: 30px;
+    font-size: 18px;
+    justify-content: space-between;
+  }
+
   .hidden {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
