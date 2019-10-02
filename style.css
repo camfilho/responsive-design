@@ -95,27 +95,24 @@ div img {
   margin-left: 4%;
 }
 
-.hidden {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
 /* grid system -- mobile first! */
 
 nav {
   display: flex;
   flex-flow: row wrap;
-  background-color: red;
   flex: 0 0 100%;
   height: 100%;
 }
 
+.mobile-nav {
+  background-color: white;
+}
+
 .logo {
   display: flex;
-  background-color: black;
-  flex: 0 0 10%;
-  height: 100%;
+  background-image: linear-gradient(red, yellow);
+  flex: 0 0 20%;
+  height: 40px;
   min-height: 100%;
   align-items: center;
 }
@@ -124,6 +121,10 @@ nav {
   display: flex;
   margin-left: auto;
   align-content: center;
+}
+
+.buttons button {
+  margin-left: 4%;
 }
 
 .attention {
@@ -695,8 +696,20 @@ footer {
   flex-flow: column wrap;
   color: #f42;
 }
+
+.second-row div {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
+  .hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  
   .col-m2 {
     display: flex;
     flex: 0 0 46%;
@@ -726,21 +739,26 @@ footer {
     display:flex;
     flex: 0 0 60%;
     align-items: stretch;
-    
+    flex-flow: row wrap;
   }
-
+  
   .img-1 {
     height: 368px;
   }
 
   .second-row {
     display:flex;
-    flex: 0 0 20%;
+    flex: 0 0 25%;
     flex-flow: row wrap;
-    margin: -50px 0 -50px 0;
     justify-content: center;
-    align-items:stretch;
+    align-items: space-between;
+  }
 
+  .second-row div{
+    flex: 0 0 100%;
+    margin-left: 2%;
+    display: flex;
+    align-items: stretch;
   }
   
   
