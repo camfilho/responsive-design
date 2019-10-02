@@ -20,7 +20,7 @@ a {
   color: #2772b0;
 }
 .wrapper {
-  width: 97%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   float: none;
@@ -832,5 +832,15 @@ footer {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
+  }
+
+  .white-nav-1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #555;
+    height: 50px;
+    font-size: 20px;
+    justify-content: space-between;
   }
 }
