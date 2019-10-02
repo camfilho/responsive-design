@@ -703,6 +703,15 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  
+  .col-m3 {
+    display: flex;
+    flex: 0 0 29%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
 
 
