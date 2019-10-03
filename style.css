@@ -16,9 +16,11 @@ body {
   font-family: Arial, Geneva, sans-serif;
   font-size: 12px;
 }
+
 a {
   color: #2772b0;
 }
+
 .wrapper {
   width: 100%;
   max-width: 1200px;
@@ -213,9 +215,7 @@ nav {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png") center center no-repeat;
   height: 100%;
   background-size: cover;
   background-blend-mode: darken;
@@ -240,8 +240,7 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf")
-    center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf") center center no-repeat;
   background-size: cover;
 }
 
@@ -484,8 +483,7 @@ nav {
 
 .image-container-1 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -494,9 +492,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png") center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -505,8 +501,7 @@ nav {
 }
 .image-container-2 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -515,9 +510,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png") center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -526,8 +519,7 @@ nav {
 }
 .image-container-3 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -535,9 +527,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6") center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -547,8 +537,7 @@ nav {
 
 .image-container-4 {
   width: 100px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707")
-    center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -557,9 +546,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -568,8 +555,7 @@ nav {
 }
 .image-container-5 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -578,9 +564,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg") center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -590,8 +574,7 @@ nav {
 
 .image-container-6 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -600,19 +583,17 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg") center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
   color: white;
   flex: 0 0 100%;
 }
+
 .image-container-7 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -669,6 +650,7 @@ footer {
   margin: 0 1%;
   color: white;
 }
+
 .imagen-33 {
   width: 20px;
   height: 30px;
@@ -684,6 +666,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .index-nav {
   display: flex;
   flex: 0 0 100%;
@@ -703,8 +686,9 @@ footer {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* Mobile Landscape Screen Sizes */
+/* Tablet Screen Sizes */
 @media only screen and (min-width: 480px) {
+
   .black-nav {
     display: flex;
     align-items: center;
@@ -729,6 +713,7 @@ footer {
   .white-nav div {
     justify-self: space-around;
   }
+
   .hidden-on-tablet-and-desktop {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
@@ -738,6 +723,7 @@ footer {
   .hidden-on-mobile-and-desktop {
     position: unset;
   }
+
   .col-m2 {
     display: flex;
     flex: 0 0 46%;
@@ -788,10 +774,12 @@ footer {
     display: flex;
     align-items: stretch;
   }
+
   .tablet-nav {
     display: flex;
     flex-flow: row nowrap;
   }
+
   .tablet-nav-logo {
     display: flex;
     background-image: linear-gradient(red, yellow);
@@ -805,13 +793,16 @@ footer {
 
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+
   a[class*="apple-image"] {
     flex: 0 0 100%;
     height: 200px;
   }
+
   .article-head {
     flex: 0 0 100%;
   }
+
   .col-l3 {
     display: flex;
     flex: 0 0 29%;
