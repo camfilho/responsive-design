@@ -1,3 +1,4 @@
+
 /* Border box declaration
 https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 
@@ -427,9 +428,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg") center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -456,20 +455,16 @@ nav {
 
 .image-container {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
-
 
 .header-bot-1 {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979") center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -495,6 +490,7 @@ nav {
   color: white;
   flex: 0 0 100%;
 }
+
 .image-container-2 {
   width: 100px;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
@@ -513,12 +509,14 @@ nav {
   color: white;
   flex: 0 0 100%;
 }
+
 .image-container-3 {
   width: 100px;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
   background-size: cover;
   height: 100px;
 }
+
 .header-bot-4 {
   display: flex;
   justify-content: flex-end;
@@ -549,6 +547,7 @@ nav {
   color: white;
   flex: 0 0 100%;
 }
+
 .image-container-5 {
   width: 100px;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
@@ -684,7 +683,6 @@ footer {
 
 /* Tablet Screen Sizes */
 @media only screen and (min-width: 480px) {
-
   .black-nav {
     display: flex;
     align-items: center;
