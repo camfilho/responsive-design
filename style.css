@@ -1,24 +1,24 @@
 /* Border box declaration
 https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
 html {
   box-sizing: border-box;
 }
+
 /* inherit border-box on all elements in the universe and before and after
 */
+
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
+
 /* Global Configurations */
 
 body {
   font-family: Arial, Geneva, sans-serif;
   font-size: 12px;
-}
-
-a {
-  color: #2772b0;
 }
 
 .wrapper {
@@ -36,6 +36,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #2772b0;
   color: inherit;
   transition: color 0.5s ease;
 }
@@ -161,9 +162,7 @@ nav {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fonecoinscam.jpg&signature=7c7b735571210481b19f30ffed2a267c")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fonecoinscam.jpg&signature=7c7b735571210481b19f30ffed2a267c") center center no-repeat;
   height: 184px;
   background-size: cover;
   background-blend-mode: darken;
@@ -178,6 +177,14 @@ nav {
   justify-content: flex-start;
 }
 
+.post-list li {
+  font-size: 13px;
+  color: #555;
+  display: block;
+  padding: 12px 0 12px 14px;
+  position: relative;
+}
+
 .img-1 ul li {
   display: flex;
   align-items: center;
@@ -188,9 +195,7 @@ nav {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931") center center no-repeat;
   height: 100%;
   background-size: cover;
   background-blend-mode: darken;
@@ -248,8 +253,7 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/slack-516x270.png")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/slack-516x270.png") center center no-repeat;
   background-size: cover;
 }
 
@@ -257,8 +261,7 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url(" https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-bright-514x270.jpg")
-    center center no-repeat;
+  background: url(" https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-bright-514x270.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -446,7 +449,7 @@ nav {
   display: flex;
   flex-flow: row;
   flex: 0 0 100%;
-  color: #ff4422;
+  color: #f42;
   font-size: 13px;
   margin-bottom: 10px;
 }
@@ -459,13 +462,6 @@ nav {
   height: 100px;
 }
 
-.post-list li {
-  font-size: 13px;
-  color: #555;
-  display: block;
-  padding: 12px 0 12px 14px;
-  position: relative;
-}
 
 .header-bot-1 {
   display: flex;
@@ -793,7 +789,6 @@ footer {
 
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
-
   a[class*="apple-image"] {
     flex: 0 0 100%;
     height: 200px;
