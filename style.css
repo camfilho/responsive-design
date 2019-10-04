@@ -1,4 +1,3 @@
-
 /* Border box declaration
 https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 
@@ -24,10 +23,14 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  float: none;
   background-color: #fff;
+  position: relative;
+}
+
+.wrapper header {
+  position: relative;
 }
 
 p {
@@ -106,12 +109,14 @@ div img {
 }
 
 /* grid system -- mobile first! */
+.hidden-on-mobile-and-tablet {
+  display: none;
+}
 
 nav {
   display: flex;
   flex-flow: row wrap;
   flex: 0 0 100%;
-  height: 100%;
 }
 
 .mobile-nav {
@@ -120,9 +125,10 @@ nav {
 
 .logo {
   display: flex;
-  background-image: linear-gradient(red, yellow);
+  padding: 1rem;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   flex: 0 0 20%;
-  height: 40px;
+  height: 60px;
   min-height: 100%;
   align-items: center;
 }
@@ -142,7 +148,7 @@ nav {
   line-height: 10px;
   background: #fd3;
   display: flex;
-  align-items: content;
+  align-items: center;
   flex-wrap: nowrap;
   font-size: 13px;
   flex-direction: row;
@@ -159,16 +165,27 @@ nav {
   justify-content: flex-start;
 }
 
+.first-row div {
+  margin-left: 0px !important;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 100%;
+}
+
 .img-1 {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fonecoinscam.jpg&signature=7c7b735571210481b19f30ffed2a267c") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fonecoinscam.jpg&signature=7c7b735571210481b19f30ffed2a267c")
+    center center no-repeat;
   height: 184px;
   background-size: cover;
   background-blend-mode: darken;
   z-index: 2;
   color: white;
+  margin-left: 0px;
+  flex-basis: fill;
 }
 
 .img-1 ul {
@@ -189,15 +206,17 @@ nav {
 .img-1 ul li {
   display: flex;
   align-items: center;
-  margin-right: 5%;
+  margin-right: 0px;
 }
 
 .img-2 {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931") center center no-repeat;
-  height: 100%;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F12%2FCoinbase-cryptocurrency-europe-blockchain-retail-investors-bitcoin-ethereum-exchange.jpg&signature=c53d0d67ea6a27a1c65ba9bb6bdf6931")
+    center center no-repeat;
+  height: 184px;
   background-size: cover;
   background-blend-mode: darken;
   z-index: 2;
@@ -221,8 +240,10 @@ nav {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png") center center no-repeat;
-  height: 100%;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-1b-796x448.png")
+    center center no-repeat;
+  height: 184px;
   background-size: cover;
   background-blend-mode: darken;
   z-index: 2;
@@ -246,7 +267,8 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf") center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf")
+    center center no-repeat;
   background-size: cover;
 }
 
@@ -254,7 +276,8 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/slack-516x270.png") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/slack-516x270.png")
+    center center no-repeat;
   background-size: cover;
 }
 
@@ -262,7 +285,8 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url(" https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-bright-514x270.jpg") center center no-repeat;
+  background: url(" https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iPhone-11-bright-514x270.jpg")
+    center center no-repeat;
   background-size: cover;
 }
 
@@ -428,7 +452,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -455,7 +481,8 @@ nav {
 
 .image-container {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour-796x417.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -464,7 +491,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F07%2FPIXEL4-5K2-Onleaks-iGeeksBlog.jpg&signature=ea8855da35e8543c60d32faa7b5bd979")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -474,7 +503,8 @@ nav {
 
 .image-container-1 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/SSDdeal.png")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -483,7 +513,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-368x276.png")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -493,7 +525,8 @@ nav {
 
 .image-container-2 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -502,7 +535,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -512,7 +547,8 @@ nav {
 
 .image-container-3 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -521,7 +557,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design112.png&signature=97e8bc136c32d5052fc5aede4e36c8a6")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -531,7 +569,8 @@ nav {
 
 .image-container-4 {
   width: 100px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707") center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -540,7 +579,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design114.png")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -550,7 +591,8 @@ nav {
 
 .image-container-5 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -559,7 +601,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg")
+    center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -569,7 +613,8 @@ nav {
 
 .image-container-6 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office-796x419.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -578,7 +623,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg") center center no-repeat;
+  background: rgba(0, 0, 0, 0.562)
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-368x276.jpg")
+    center center no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   height: 258px;
@@ -588,7 +635,8 @@ nav {
 
 .image-container-7 {
   width: 100px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg") center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League.jpg")
+    center center no-repeat;
   background-size: cover;
   height: 100px;
 }
@@ -619,7 +667,7 @@ footer {
   justify-content: center;
   background-color: #555;
   font-size: 16px;
-  width: 40px;
+  flex: 1 1 40px;
   height: 40px;
   padding: 12px;
   border-radius: 50%;
@@ -627,10 +675,22 @@ footer {
 
 .footer-links {
   display: flex;
+  flex: 0 1 100%;
   align-items: center;
   justify-content: center;
   justify-self: center;
-  flex-flow: wrap;
+  flex-flow: row wrap;
+}
+.footer-links li {
+  display: flex;
+  flex: 0 1 40px;
+}
+.footer-links li a {
+  margin-left: 30px;
+}
+
+.footer-links-menu li a {
+  margin-left: 30px;
 }
 
 .footer-links-menu {
@@ -670,9 +730,8 @@ footer {
   color: #f42;
 }
 
-.second-row div {
-  margin-left: 2%;
-  margin-top: 1%;
+.second-row-1 {
+  margin-bottom: 10px;
 }
 
 .hidden-on-mobile-and-desktop {
@@ -682,30 +741,40 @@ footer {
 }
 
 /* Tablet Screen Sizes */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 700px) {
   .black-nav {
     display: flex;
     align-items: center;
     flex: 0 0 100%;
     background-color: #131313;
-    color: #555;
+    color: hsla(0, 0%, 100%, 0.6);
     height: 30px;
     font-size: 12px;
     justify-content: space-between;
+    padding: 1rem;
   }
-
+  .black-nav div a {
+    margin-left: 20px;
+    font-size: 100%;
+  }
   .white-nav {
     display: flex;
     align-items: center;
     background-color: white;
-    color: #555;
-    height: 30px;
-    font-size: 12px;
+    color: #aaa;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Shentox, sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1;
     justify-content: space-between;
   }
 
   .white-nav div {
     justify-self: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .hidden-on-tablet-and-desktop {
@@ -745,26 +814,29 @@ footer {
 
   .first-row {
     display: flex;
-    flex: 0 0 60%;
+    flex: 0 0 59%;
     align-items: stretch;
     flex-flow: row wrap;
+    margin: 0px;
+    margin-left: 10px;
   }
 
   .img-1 {
-    height: 368px;
+    height: 378px;
   }
 
   .second-row {
     display: flex;
-    flex: 0 0 25%;
+    flex: 0 0 39%;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: space-between;
+    align-items: stretch;
   }
 
   .second-row div {
     flex: 0 0 100%;
-    margin-left: 2%;
+    width: 100%;
+    margin-left: 1%;
     display: flex;
     align-items: stretch;
   }
@@ -776,7 +848,7 @@ footer {
 
   .tablet-nav-logo {
     display: flex;
-    background-image: linear-gradient(red, yellow);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
     flex: 0 0 15%;
   }
 
@@ -786,7 +858,7 @@ footer {
 }
 
 /* Desktop screen Sizes */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
   a[class*="apple-image"] {
     flex: 0 0 100%;
     height: 200px;
@@ -822,9 +894,52 @@ footer {
     display: flex;
     align-items: center;
     background-color: white;
-    color: #555;
+    color: #aaa;
     height: 50px;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Shentox, sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1;
     justify-content: space-between;
+  }
+
+  .white-nav-1 > div > .btn {
+    padding: 0.5rem 2rem;
+    margin-right: 2r;
+  }
+
+  .white-nav-1 a {
+    padding: 18px 10px 0;
+  }
+
+  .hidden-on-mobile-and-tablet {
+    display: flex;
+    flex: 0 0 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+  }
+
+  .attention {
+    margin-top: 8%;
+    flex-basis: 100%;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .img-1 {
+    flex-basis: fill;
+    height: 378px;
+  }
+
+  .img-2 {
+    flex-basis: fill;
+  }
+  strong {
+    font-weight: 900;
+    font-size: 30px;
   }
 }
