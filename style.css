@@ -786,6 +786,7 @@ footer {
     letter-spacing: 0.04em;
     line-height: 1;
     justify-content: space-between;
+    border-bottom: 20px solid white;
   }
 
   .white-nav div {
@@ -865,8 +866,8 @@ footer {
   .tablet-nav-logo {
     display: flex;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
-    height: 10%;
     width: 15%;
+    height: 60px;
     position: fixed;
     top: 0;
     z-index: 2000;
@@ -882,9 +883,16 @@ footer {
 
   .attention {
     position: fixed;
-    top: 60px;
+    top: 59px;
     padding-left: 16vw;
   }
+
+  .tablet-logo-img {
+    position: sticky;
+    bottom: 50%;
+    top: 90%;
+  }
+
 }
 
 /* Desktop screen Sizes */
@@ -925,7 +933,7 @@ footer {
     align-items: center;
     background-color: white;
     color: #aaa;
-    height: 50px;
+    height: 34px;
     font-size: 14px;
     font-weight: 500;
     font-family: Shentox, sans-serif;
@@ -936,7 +944,6 @@ footer {
 
   .white-nav-1 > div > .btn {
     padding: 0.5rem 2rem;
-    margin-right: 2rem;
   }
 
   .white-nav-1 a {
@@ -951,17 +958,31 @@ footer {
   }
 
   .desktop-nav {
-    position: fixed;
+    position: sticky;
     top: 0;
+  }
+
+  .tablet-desktop-logo {
+    height: 70px;
+    z-index: 1999;
+    padding: 20px;
+  }
+
+  .tablet-desktop {
+    right: 0;
+    z-index: 1999;
+    height: 9vh;
+    
   }
 
   .desktop-nav-right {
     flex: 100%;
+    z-index: 2000;
   }
 
   .attention {
     position: fixed;
-    top: 80px;
+    top: 65px;
     width: 100%;
     padding-left: 1rem;
     padding-top: 0.6rem;
