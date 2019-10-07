@@ -892,7 +892,6 @@ footer {
     bottom: 50%;
     top: 90%;
   }
-
 }
 
 /* Desktop screen Sizes */
@@ -972,7 +971,6 @@ footer {
     right: 0;
     z-index: 1999;
     height: 9vh;
-    
   }
 
   .desktop-nav-right {
