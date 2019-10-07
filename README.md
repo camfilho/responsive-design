@@ -8,6 +8,8 @@ You can find the original project specification at [here](https://www.theodinpro
 
 ## Updates
 **Starting Date** September 27th, 2019.
+**Code Review Date** October 3rd, 2019.
+
 
 
 ## Authors
