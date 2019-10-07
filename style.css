@@ -701,6 +701,11 @@ footer {
   flex-flow: row wrap;
 }
 
+.footer-links-menu a {
+  margin: 0 1%;
+  color: white;
+}
+
 .footer-links li a {
   margin-left: 30px;
 }
@@ -715,11 +720,6 @@ footer {
   flex: 0 0 96%;
   justify-content: center;
   align-items: center;
-}
-
-.footer-links-menu a {
-  margin: 0 1%;
-  color: white;
 }
 
 .imagen-33 {
@@ -769,10 +769,12 @@ footer {
     justify-content: space-between;
     padding: 1rem;
   }
+
   .black-nav div a {
     margin-left: 20px;
     font-size: 100%;
   }
+
   .white-nav {
     display: flex;
     align-items: center;
@@ -934,7 +936,7 @@ footer {
 
   .white-nav-1 > div > .btn {
     padding: 0.5rem 2rem;
-    margin-right: 2r;
+    margin-right: 2rem;
   }
 
   .white-nav-1 a {
@@ -974,8 +976,10 @@ footer {
   .img-2 {
     flex-basis: fill;
   }
+
   strong {
     font-weight: 900;
     font-size: 30px;
   }
+
 }
