@@ -181,7 +181,7 @@ nav {
 }
 
 .first-row div {
-  margin-left: 0px !important;
+  margin-left: 0;
   margin-bottom: 5px;
   width: 100%;
   height: 100%;
@@ -197,7 +197,7 @@ nav {
   background-blend-mode: darken;
   z-index: 2;
   color: white;
-  margin-left: 0px;
+  margin-left: 0;
   flex-basis: fill;
 }
 
@@ -216,10 +216,15 @@ nav {
   position: relative;
 }
 
+.footer-links li {
+  display: flex;
+  flex: 0 1 40px;
+}
+
 .img-1 ul li {
   display: flex;
   align-items: center;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .img-2 {
@@ -276,8 +281,7 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf")
-    center center no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcheap-header-image-beats-pill-plus.png&signature=ec76a00e5d636770489ee5f9ec61fdbf") center center no-repeat;
   background-size: cover;
 }
 
@@ -341,8 +345,7 @@ nav {
   display: block;
   height: 75px;
   width: 75px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60-452x270.jpg")
-    center center no-repeat;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60-452x270.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -492,9 +495,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-flow: column wrap;
-  background: rgba(0, 0, 0, 0.562)
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg")
-    center center no-repeat;
+  background: rgba(0, 0, 0, 0.562) url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-368x276.jpg") center center no-repeat;
   background-blend-mode: darken;
   height: 258px;
   color: white;
@@ -699,10 +700,7 @@ footer {
   justify-self: center;
   flex-flow: row wrap;
 }
-.footer-links li {
-  display: flex;
-  flex: 0 1 40px;
-}
+
 .footer-links li a {
   margin-left: 30px;
 }
@@ -832,7 +830,7 @@ footer {
     flex: 0 0 59%;
     align-items: stretch;
     flex-flow: row wrap;
-    margin: 0px;
+    margin: 0;
     margin-left: 10px;
   }
 
