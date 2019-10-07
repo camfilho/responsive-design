@@ -27,10 +27,11 @@ body {
   margin: 0 auto;
   background-color: #fff;
   position: relative;
+  overflow: hidden;
 }
 
 .wrapper header {
-  position: relative;
+  position: static;
 }
 
 p {
@@ -121,6 +122,11 @@ nav {
 
 .mobile-nav {
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding-right: 4vw;
+  z-index: 2000;
 }
 
 .logo {
@@ -154,6 +160,10 @@ nav {
   flex-direction: row;
   white-space: nowrap;
   overflow: hidden;
+  width: 100vw;
+  position: fixed;
+  top: 60px;
+  z-index: 2000;
 }
 
 .row {
@@ -163,6 +173,11 @@ nav {
   flex: 0 0 100%;
   flex-flow: row wrap;
   justify-content: flex-start;
+}
+
+.box-down {
+  position: relative;
+  top: 85px;
 }
 
 .first-row div {
@@ -327,6 +342,42 @@ nav {
   height: 75px;
   width: 75px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/IMG_20190930_111241-Cropped-513x270.jpg");
+  background-size: cover;
+}
+
+.image-11 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60-452x270.jpg")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image-21 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/EF4hwt-W4AILDL9-480x270.jpeg")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image-31 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Windows-10X-517x270.jpg")
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image-41 {
+  display: block;
+  height: 75px;
+  width: 75px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/MicrosoftSurfaceProx-512x270.jpg")
+    center center no-repeat;
   background-size: cover;
 }
 
@@ -762,7 +813,6 @@ footer {
     align-items: center;
     background-color: white;
     color: #aaa;
-    height: 50px;
     font-size: 14px;
     font-weight: 500;
     font-family: Shentox, sans-serif;
@@ -778,9 +828,7 @@ footer {
   }
 
   .hidden-on-tablet-and-desktop {
-    position: absolute;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
+    display: none;
   }
 
   .hidden-on-mobile-and-desktop {
@@ -844,16 +892,32 @@ footer {
   .tablet-nav {
     display: flex;
     flex-flow: row nowrap;
+    height: 100%;
   }
 
   .tablet-nav-logo {
     display: flex;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
-    flex: 0 0 15%;
+    height: 10%; 
+    width: 15%;
+    position: fixed;
+    top:0;
+    z-index: 2000;
+    
   }
 
   .tablet-nav-right {
     flex: 100%;
+    position: fixed;
+    top:0;
+    left: 15%;
+    z-index: 2000;
+  }
+
+  .attention {
+    position: fixed;
+    top: 60px;
+    padding-left: 16vw;
   }
 }
 
@@ -870,7 +934,7 @@ footer {
 
   .col-l3 {
     display: flex;
-    flex: 0 0 29%;
+    flex: 0 0 21%;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
@@ -917,14 +981,22 @@ footer {
     display: flex;
     flex: 0 0 100%;
     width: 100%;
+    z-index: 2000;
+  }
+
+  .desktop-nav {
     position: fixed;
-    z-index: 11;
     top: 0;
   }
 
+  .desktop-nav-right {
+      flex: 100%;
+  }
+
   .attention {
-    margin-top: 8%;
-    flex-basis: 100%;
+    position: fixed;
+    top: 80px;
+    width: 100%;
     padding-left: 1rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
