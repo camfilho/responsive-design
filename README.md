@@ -7,8 +7,9 @@ This project consists of replicating the [The Next Web](https://thenextweb.com/)
 You can find the original project specification at [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design).
 
 ## Updates
-**Starting Date** September 27th, 2019.
-**Code Review Date** October 3rd, 2019.
+**Starting Date** September 27th, 2019.<br>
+**Code Review Date** October 3rd, 2019.<br>
+** Project Approved** Octiber 7th, 2019.
 
 
 
